@@ -1,0 +1,9 @@
+a=int(input('Number1:'))
+b=int(input('Number2:'))
+operation = str(input(' Operation sing:'))
+if operation == '+':
+    print(a+b)
+elif operation == '-':
+    print(a-b)
+else:
+    print(False) 
